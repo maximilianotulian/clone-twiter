@@ -1,0 +1,33 @@
+.logo {
+  width: 40px;
+  height: 40px;
+  &__white {
+    background-color: white;
+  }
+}
+
+.profile {
+  border-radius: 50%;
+  background: #cccccc;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.home {
+  height: 100%;
+
+  &--second-column {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    margin-left: 200px;
+
+    .second-column {
+      &--item {
+        text-align: left;
+        border: 1px solid #cccccc
+      }
+    }
+  }
+}

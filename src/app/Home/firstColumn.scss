@@ -1,0 +1,37 @@
+.first-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 756px;
+  position: fixed;
+
+  &--list {
+    list-style: none;
+    padding: 0;
+
+    .list--item {
+      border-radius: 30%;
+      text-align: left;
+      > button {
+        font-weight: 600;
+        font-size: 18px;
+        margin: 10px;
+        width: 180px;
+        height: 47px;
+        text-align: left;
+        > svg {
+          font-size: 20px;
+          margin-right: 5px;
+        }
+      }
+    }
+    .list--item-mobile {
+        > button {
+          font-size: 20px;
+          height: 50px;
+          width: 50px;
+          margin: 10px
+        }
+      }
+  }
+}
